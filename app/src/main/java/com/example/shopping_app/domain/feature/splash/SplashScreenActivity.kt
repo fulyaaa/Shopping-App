@@ -1,12 +1,16 @@
-package com.example.shopping_app
+package com.example.shopping_app.domain.feature.splash
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.view.WindowManager
+import com.example.shopping_app.MainActivity
+import com.example.shopping_app.R
 
+@SuppressLint("CustomSplashScreen")
 class SplashScreenActivity : AppCompatActivity() {
 
     private var SPLASH_SCREEN_TIME : Long = 3500

@@ -5,16 +5,18 @@ import android.content.Intent
 import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.Window
-import android.view.WindowManager
 import android.widget.TextView
 import androidx.viewpager.widget.ViewPager
-import com.example.shopping_app.adapter.OnboardingViewPagerAdapter
+import com.example.shopping_app.domain.feature.onBoarding.adapter.OnboardingViewPagerAdapter
 import com.example.shopping_app.databinding.ActivityMainBinding
 import com.example.shopping_app.model.OnBoardingData
 import com.google.android.material.tabs.TabLayout
-import java.time.temporal.TemporalAdjusters.next
+import com.google.firebase.auth.FirebaseAuth
+import dagger.Provides
+import dagger.hilt.android.AndroidEntryPoint
+import javax.inject.Singleton
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
     private var _binding : ActivityMainBinding? = null
@@ -115,9 +117,5 @@ class MainActivity : AppCompatActivity() {
         return sharedPreferences!!.getBoolean("isFirstTimeRun", false)
     }
 
-    //ıntercepter kullan yap parametre verme
-    //intercepter servise istek atarken arya giren yapı
-    //api key yollamıyoruz kullanmazsak sorun olur mu ? kullırsan artı hideri intercepter ile araya sokarsın
-    //notcs le kur
 
 }

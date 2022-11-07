@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "701935590964",
+    "project_id": "shopping-app-dabfc",
+    "storage_bucket": "shopping-app-dabfc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:701935590964:android:cc66debcd46e43364f7461",
+        "android_client_info": {
+          "package_name": "com.example.shopping_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "701935590964-om2uudcu606cdoum2hf7kj5e957lnq25.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDacS2IpXSaVa8S7VsP7-dD_h3oBAHW0_Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "701935590964-om2uudcu606cdoum2hf7kj5e957lnq25.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

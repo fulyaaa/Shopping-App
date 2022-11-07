@@ -6,7 +6,8 @@
             android:shape="ring"
             android:thickness="4dp"
             android:innerRadius="0dp"
-            android:useLevel="false">
+            android:useLevel="false"
+            >
             <solid
                 android:color="#000000"/>
         </shape>

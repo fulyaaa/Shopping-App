@@ -1,4 +1,4 @@
-package com.example.shopping_app.adapter
+package com.example.shopping_app.domain.feature.onBoarding.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -8,9 +8,12 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.viewpager.widget.PagerAdapter
 import com.example.shopping_app.R
+import com.example.shopping_app.databinding.ActivityMainBinding
+import com.example.shopping_app.databinding.OnboardingScreenLayoutBinding
 import com.example.shopping_app.model.OnBoardingData
 
 class OnboardingViewPagerAdapter(private var context:Context, private var onBoardingDataList: List<OnBoardingData>) : PagerAdapter() {
+
 
     override fun isViewFromObject(view: View, `object`: Any): Boolean {
         return view == `object`
