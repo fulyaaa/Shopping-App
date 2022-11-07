@@ -11,7 +11,7 @@ Fake Store API: https://fakestoreapi.com/
 - View Binding
 - SafeArgs
 - Gson
--Firebase
--Retrofit
--MVVM
+- Firebase
+- Retrofit
+- MVVM
 
